@@ -3,13 +3,59 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
 <body>
+	<caption>List of all transaction</caption>
+	<div class="table-responsive">
+		<table class="table table-hover">
+			<caption>List of all transaction</caption>
+			<thead class="table-dark">
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">From</th>
+					<th scope="col">To</th>
+					<th scope="col">Amount($)</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">1</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>1000</td>
+				</tr>
+				<tr>
+					<th scope="row">2</th>
+					<td>Jacob</td>
+					<td>Thornton</td>
+					<td>1500</td>
+				</tr>
+				<tr>
+					<th scope="row">3</th>
+					<td>Jack</td>
+					<td>Jhon</td>
+					<td>2000</td>
+				</tr>
+			</tbody>
+			<tfoot class="table-light">
+				<tr>
+					<th scope="row" colspan="3" id="total">Total</th>
+
+					<th>4000</th>
+				</tr>
+			</tfoot>
+
+		</table>
+
+	</div>
+
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<script type="text/javascript" src="./script.js">
+	</script>
 
 </body>
 
